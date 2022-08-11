@@ -48,7 +48,7 @@ posso instruir meu codigo java a buscar essas informações e usá-las para ter 
 	public static class Runner implements ApplicationRunner {
 
 		@Value("${hostApi}")
-		String hostApiGrupoNc;
+		String hostApi;
 		  
 		@Value("${userApi}")
 		String userApi;
